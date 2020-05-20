@@ -4,8 +4,8 @@ import SessaoRepository from '../repositories/SessaoRepository';
 import PautaRepository from '../repositories/PautaRepository';
 
 interface Request {
-  inicio: datetime;
-  fim: datetime;
+  inicio: Date;
+  fim: Date;
   pautaId: string;
 }
 

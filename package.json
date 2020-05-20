@@ -6,12 +6,13 @@
   "author": "Emerson Pereira da Silva <pereiradasilva.emerson@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start":"node srv/server.js",
+    "start": "node srv/server.js",
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.6",
     "@types/express": "^4.17.5",
     "@types/mongoose": "^5.7.20",
     "@typescript-eslint/eslint-plugin": "^2.27.0",

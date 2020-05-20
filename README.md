@@ -6,7 +6,6 @@
 
 - TypeORM - Mapeamento objeto-relacional, abstração do banco de dados
 - uuidv4 - gerador de uuid (catacteres para as chaves primarias)
-- db.sqlite3 - Banco de dados em unico arquivo
 
 - nodejs - interpretador do javascript
 - express - framework para nodejs

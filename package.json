@@ -6,6 +6,7 @@
   "author": "Emerson Pereira da Silva <pereiradasilva.emerson@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start":"node srv/server.js",
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"

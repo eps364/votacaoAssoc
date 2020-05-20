@@ -1,14 +1,17 @@
 {
-  "type":"postgres",
-  "host":"localhost",
-  "port":5432,
-  "username":"docker",
-  "password":"docker",
-  "database":"votacao",
+  "type":"mysql",
+  "host":"us-cdbr-east-06.cleardb.net",
+  "port":3306,
+  "username":"b576625771f370",
+  "password":"6b097b2f",
+  "database":"heroku_ab93a5c4de09879",
   "synchronize": "true",
-  "logging": "true",
+  "logging": "false",
   "entities": [ "./src/models/*.ts", "./dist/models/*.js"],
 
   "migrations":[ "./src/database/migrations/*.ts" ],
-  "cli": {"migrationsDir" : "./src/database/migrations" }
+  "cli": {
+    "migrationsDir" : "./src/database/migrations"
+  }
 }
+

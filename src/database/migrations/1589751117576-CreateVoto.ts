@@ -16,7 +16,7 @@ export default class CreateVoto1589751117576 implements MigrationInterface {
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            default: 'uuid',
           },
           {
             name: 'sessaoId',

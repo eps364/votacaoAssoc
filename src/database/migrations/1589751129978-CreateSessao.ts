@@ -11,7 +11,7 @@ export default class CreateSessao1589751129978 implements MigrationInterface {
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            default: 'uuid',
           },
           {
             name: 'inicio',

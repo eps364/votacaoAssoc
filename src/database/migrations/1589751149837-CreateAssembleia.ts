@@ -12,7 +12,7 @@ export default class CreateAssembleia1589751149837
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            default: 'uuid',
           },
           {
             name: 'assembleia',
@@ -28,6 +28,7 @@ export default class CreateAssembleia1589751149837
           },
         ],
       }),
+      true,
     );
   }
 

@@ -16,7 +16,7 @@ export default class CreatePauta1589751137131 implements MigrationInterface {
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            default: 'uuid',
           },
           {
             name: 'pauta',
@@ -32,6 +32,7 @@ export default class CreatePauta1589751137131 implements MigrationInterface {
           },
         ],
       }),
+      true,
     );
   }
 

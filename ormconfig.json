@@ -14,4 +14,3 @@
     "migrationsDir" : "./src/database/migrations"
   }
 }
-
